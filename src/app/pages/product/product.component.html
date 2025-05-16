@@ -1,0 +1,70 @@
+<main class="product-container">
+  <!-- Enhanced Hero Section with Animated Background -->
+  <div class="hero-section">
+    <div class="hero-particles"></div>
+    <div class="hero-content">
+      <h1>Innovative Solutions for Tomorrow</h1>
+      <p class="hero-subtitle">Discover our cutting-edge products designed to transform your business</p>
+      <!-- <div class="hero-cta">
+        <button class="cta-button primary">Explore Our Products</button>
+        <button class="cta-button secondary">Watch Demo</button>
+      </div> -->
+    </div>
+    <div class="hero-shape"></div>
+  </div>  
+  
+  <!-- Enhanced Products Section -->
+  <section class="products-section">
+    <div class="section-header scroll-reveal">
+      <h2 class="section-title">Our Flagship Products</h2>
+      <p class="section-subtitle">Discover our suite of AI-powered solutions designed to transform how you work, analyze data, and make decisions.</p>
+    </div>
+    
+    <div class="products-list">
+      <!-- Loop through products array with enhanced cards -->
+      <div *ngFor="let product of products; let i = index" class="product-item scroll-reveal" [ngClass]="{'reverse': i % 2 !== 0}">
+        <div class="product-image">
+          <div class="image-container">
+            <img [src]="product.image" [alt]="product.title">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="product-badge" *ngIf="product.badge">{{product.badge}}</div>
+        </div>
+        <div class="product-content">
+          <span class="product-number">0{{i+1}}</span>
+          <h3 class="product-title">{{product.title}}</h3>
+          <p class="product-description">{{product.description}}</p>
+          <div class="product-details">
+            <p>{{product.details}}</p>
+            <div class="product-features" *ngIf="product.features && product.features.length">
+              <h4>Key Features:</h4>
+              <ul>
+                <li *ngFor="let feature of product.features">{{feature}}</li>
+              </ul>
+            </div>
+            <div class="product-actions">
+              <button class="learn-more-btn" (click)="navigateToProductDetails(product)">
+                Learn More
+                <span class="btn-icon">→</span>
+              </button>
+              <button class="demo-btn" *ngIf="product.demoAvailable">
+                Request Demo
+                <span class="btn-icon">⚡</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- New Call-to-Action Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Ready to Transform Your Business?</h2>
+      <p>Get started with our AI-powered solutions today and stay ahead of the competition.</p>
+      <button class="cta-button primary" (click)="navigateToContact()">Contact Sales</button>
+    </div>
+  </section>
+</main>
+

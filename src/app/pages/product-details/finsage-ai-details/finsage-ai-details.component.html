@@ -1,0 +1,275 @@
+<div class="mx-auto overflow-hidden flex flex-col justify-between my-2!">
+  <div class="pt-5!"> 
+    <button (click)="goBack()"
+    class="bg-transparent text-blue-300 text-base font-medium cursor-pointer hover:text-blue-400 hover:translate-x-1.5 transition-all duration-300 mx-10!">←
+    Back to Products</button>
+  </div>
+  <div class="h-[calc(80vh-300px)] flex flex-col justify-center relative text-center animate-immediate">
+    <div class="justify-center items-center text-8xl font-bold">
+      <h1 class="text-white flex flex-col lg:flex-row  justify-center items-center font-sans">
+        <span>Introducing</span>
+        <span class="bg-gradient-to-r from-[#1594fd] to-[#9333ea] text-transparent bg-clip-text p-6!">FinSage AI</span>
+      </h1>
+    </div>
+    <p class="text-3xl text-gray-400 mx-auto flex justify-center items-center">Your AI Agent for Instant,
+      Actionable Financial Intelligence</p>
+  </div>
+
+  <!-- Flowchart Section -->
+  <div class="mx-auto px-4!">
+    <h2 class="text-5xl font-bold text-white mb-8! text-center mb-16! animate-immediate">How FinSage AI Works</h2>
+    <div>
+      <!-- Flowchart Container -->
+      <div class="flex flex-col lg:flex-row justify-center items-center space-x-8 lg:space-x-0 lg:space-y-8">
+        <!-- Input Box -->
+        <div class="flex justify-center animate-immediate-left">
+          <div class="bg-black text-white rounded-lg shadow-lg h-30 w-96 flex flex-col items-center justify-center">
+            <h3 class="text-3xl font-semibold mb-2! text-[#1594fd]">Input</h3>
+            <p class="text-xl">Revenue + Spend Data</p>
+          </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="flex items-center animate-immediate-left" >
+          <span class="text-blue-500 text-5xl rotate-90 lg:rotate-0">➔</span>
+        </div>
+
+        <!-- Processing Box -->
+        <div class="flex justify-center animate-immediate-left" >
+          <div class="bg-black text-white rounded-lg shadow-lg h-30 w-96 flex flex-col items-center justify-center">
+            <h3 class="text-3xl font-semibold mb-2! text-[#1594fd]">Processing</h3>
+            <div class="space-y-2 text-center">
+              <p class="text-xl">Thousands of hypotheses</p>
+              <p class="text-xl">Statistical testing</p>
+              <p class="text-xl">P-value filtering</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="flex items-center animate-immediate-left">
+          <span class="text-blue-500 text-5xl rotate-90 lg:rotate-0">➔</span>
+        </div>
+
+        <!-- Output Box -->
+        <div class="flex justify-center animate-immediate-left" >
+          <div class="bg-black text-white rounded-lg shadow-lg h-30 w-96 flex flex-col items-center justify-center">
+            <h3 class="text-3xl font-semibold mb-2! text-[#1594fd]">Output</h3>
+            <p class="text-xl">Insights + Dashboards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto px-4! mt-16!">
+    <h2 class="text-5xl font-bold text-white mb-8! text-center mb-16! animate-fade-in">Why FinSage AI?</h2>
+    <div>
+      <!-- Flowchart Container -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="flex justify-center animate-fade-in" style="animation-duration: 0.3s;">
+          <div
+            class="bg-gray-800 p-6! text-white rounded-lg shadow-lg h-auto w-150 flex flex-col items-center justify-center">
+            <h3 class="text-2xl font-semibold mb-5! text-[#1594fd]">Intelligent Hypothesis Engine</h3>
+            <img src="assets/icons/matrix.png" alt="Intelligent Hypothesis Engine" class="w-190 h-130 rounded-lg">
+          </div>
+        </div>
+        <div class="flex justify-center animate-fade-in" style="animation-duration: 0.6s;">
+          <div
+            class="bg-gray-800 p-6! text-white rounded-lg shadow-lg h-auto w-auto flex flex-col items-center justify-center">
+            <h3 class="text-2xl font-semibold mb-5! text-[#1594fd]">Natural Language to Decision-Grade Insights</h3>
+            <img src="assets/icons/dashboard.png" alt="Natural Language to Decision-Grade Insights"
+              class="w-140 h-130 rounded-lg">
+          </div>
+        </div>
+        <div class="flex justify-center animate-fade-in" style="animation-duration: 0.9s;">
+          <div
+            class="bg-gray-800 p-6! text-white rounded-lg shadow-lg h-auto w-auto flex flex-col items-center justify-center">
+            <h3 class="text-2xl font-semibold mb-5! text-[#1594fd]">Self-Serve & Exploratory</h3>
+            <img src="assets/icons/drag-drop.png" alt="Self-Serve & Exploratory" class="w-140 h-130 rounded-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto px-4! mt-16!">
+    <h2 class="text-5xl font-bold text-white mb-8! text-center mb-16! animate-fade-in">From Raw Data to Strategic Action — In Minutes
+    </h2>
+    <div>
+      <ul class="timeline timeline-vertical relative">
+        <li class="relative" >
+          <div class="timeline-start timeline-box text-white mx-4! bg-[#102647] backdrop-blur-l p-5! rounded-xl border-2 border-[#0f3668] shadow-lg hover:shadow-blue-500/20 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 animate-fade-in-left" style="animation-delay: 0.3s;">
+            <div class="flex items-center gap-3" >
+              <div class="w-14! h-14! bg-[#2264b9] rounded-full flex items-center justify-center shadow-inner shadow-blue-500/20 transform hover:rotate-12 transition-transform duration-300">
+                <i class="fas fa-cloud-arrow-up text-3xl text-blue-100/90"></i>
+              </div>
+              <span class="text-2xl  text-gray-100 tracking-wide">Upload Data</span>
+            </div>
+          </div>
+          <hr class="bg-[#1594fd]" />
+        </li>
+        <li class="relative" >
+          <hr class="bg-[#1594fd]" />
+          <div class="timeline-end timeline-box text-white mx-4! bg-[#1c1c33] backdrop-blur-sm p-6! rounded-xl border-2 border-[#282757] shadow-lg hover:shadow-purple-500/20 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 animate-fade-in-right" style="animation-delay: 0.6s;">
+            <div class="flex items-center gap-3">
+              <div class="w-14! h-14! bg-purple-500/30 rounded-full flex items-center justify-center shadow-inner shadow-purple-500/20 transform hover:rotate-12 transition-transform duration-300">
+                <i class="fas fa-search text-3xl text-purple-400"></i>
+              </div>
+              <span class="text-2xl font-semibold text-gray-100 tracking-wide">AI Hypothesis Testing</span>
+            </div>
+          </div>
+          <hr class="bg-[#1594fd]" />
+        </li>
+        <li class="relative" >
+          <hr class="bg-[#1594fd]" />
+          <div class="timeline-start timeline-box text-white mx-4! bg-[#083034] backdrop-blur-l p-6! rounded-xl border-2 border-[#04534a] shadow-lg hover:shadow-green-500/20 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 animate-fade-in-left" style="animation-delay: 0.9s;">
+            <div class="flex items-center gap-3">
+              <div class="w-14! h-14! bg-[#006b62] rounded-full flex items-center justify-center shadow-inner shadow-green-500/20 transform hover:rotate-12 transition-transform duration-300">
+                <i class="fas fa-filter text-3xl text-[#27cc9d]"></i>
+              </div>
+              <span class="text-2xl font-semibold text-gray-100 tracking-wide">Insights Filtered</span>
+            </div>
+          </div>
+          <hr class="bg-[#1594fd]" />
+        </li>
+        <li class="relative" >
+          <hr class="bg-[#1594fd]" />
+          <div class="timeline-end timeline-box text-white mx-4! bg-[#2d2715] backdrop-blur-sm p-6! rounded-xl border-2 border-[#45390f] shadow-lg hover:shadow-yellow-500/20 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 animate-fade-in-right" style="animation-delay: 1.2s;">
+            <div class="flex items-center gap-3">
+              <div class="w-14! h-14! bg-[#695503] rounded-full flex items-center justify-center shadow-inner shadow-yellow-500/20 transform hover:rotate-12 transition-transform duration-300">
+                <i class="fas fa-chart-bar text-3xl text-yellow-400"></i>
+              </div>
+              <span class="text-2xl text-gray-100 tracking-wide">Dashboard Auto-Generated</span>
+            </div>
+          </div>
+          <hr class="bg-[#1594fd]" />
+        </li>
+        <li class="relative" >
+          <hr class="bg-[#1594fd]" />
+          <div class="timeline-start timeline-box text-white mx-4! bg-[#2d1723] backdrop-blur-sm p-6! rounded-xl border-2 border-[#611b25] shadow-lg hover:shadow-red-500/20 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 animate-fade-in-left" style="animation-delay: 1.2s;">
+            <div class="flex items-center gap-3">
+              <div class="w-14! h-14! bg-[#5d1c25] rounded-full flex items-center justify-center shadow-inner shadow-red-500/20 transform hover:rotate-12 transition-transform duration-300">
+                <i class="fas fa-check-circle text-3xl text-red-400"></i>
+              </div>
+              <span class="text-2xl font-semibold text-gray-100 tracking-wide">Business Decision Enabled</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="mx-auto px-4! mt-16!">
+    <h2 class="text-5xl font-bold text-white mb-8! text-center mb-16! animate-fade-in">Who is it for?</h2>
+    <div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div
+          class="bg-gradient-to-br from-[#1e293b] to-[#0f172a] border border-blue-700/40 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8! flex flex-col items-center mb-6! animate-fade-in-left">
+          <h3 class="text-4xl font-bold text-[#1594fd] mb-4!">Finance Analyst</h3>
+          <p class="text-gray-300 text-center mb-4!">Streamline financial analysis with AI-powered insights, automate routine tasks, and focus on strategic decision-making with confidence.</p>
+          <ul class="space-y-2 w-full max-w-xs mx-auto flex flex-col justify-center items-center">
+            <li class="flex items-center gap-2 text-green-400 font-medium">Automated data analysis<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Real-time financial insights<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Advanced forecasting capabilities<span class="text-2xl">✔</span></li>
+          </ul>
+        </div>
+        <div
+          class="bg-gradient-to-br from-[#1e293b] to-[#0f172a] border border-blue-700/40 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8! flex flex-col items-center mb-6! animate-fade-in-right">
+          <h3 class="text-4xl font-bold text-[#1594fd] mb-4!">Business Strategist</h3>
+          <p class="text-gray-300 text-center mb-4!">Gain competitive advantage with AI-driven market analysis, identify growth opportunities, and make data-backed strategic decisions.</p>
+          <ul class="space-y-2 w-full max-w-xs mx-auto flex flex-col justify-center items-center">
+            <li class="flex items-center gap-2 text-green-400 font-medium">Market trend analysis<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Competitive intelligence<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Strategic planning tools<span class="text-2xl">✔</span></li>
+          </ul>
+        </div>
+        <div
+          class="bg-gradient-to-br from-[#1e293b] to-[#0f172a] border border-blue-700/40 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8! flex flex-col items-center mb-6! animate-fade-in-left">
+          <h3 class="text-4xl font-bold text-[#1594fd] mb-4!">Growth Leader</h3>
+          <p class="text-gray-300 text-center mb-4!">Drive business expansion with predictive analytics, optimize resource allocation, and identify high-impact growth opportunities.</p>
+          <ul class="space-y-2 w-full max-w-xs mx-auto flex flex-col justify-center items-center">
+            <li class="flex items-center gap-2 text-green-400 font-medium">Growth opportunity identification<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Resource optimization<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Performance tracking<span class="text-2xl">✔</span></li>
+          </ul>
+        </div>
+        <div
+          class="bg-gradient-to-br from-[#1e293b] to-[#0f172a] border border-blue-700/40 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8! flex flex-col items-center mb-6! animate-fade-in-right">
+          <h3 class="text-4xl font-bold text-[#1594fd] mb-4!">CFO & Executive Team</h3>
+          <p class="text-gray-300 text-center mb-4!">Make informed financial decisions with comprehensive dashboards, real-time KPIs, and strategic financial insights at your fingertips.</p>
+          <ul class="space-y-2 w-full max-w-xs mx-auto flex flex-col justify-center items-center">
+            <li class="flex items-center gap-2 text-green-400 font-medium">Executive dashboards<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Financial health monitoring<span class="text-2xl">✔</span></li>
+            <li class="flex items-center gap-2 text-green-400 font-medium">Strategic decision support<span class="text-2xl">✔</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto px-4! mt-16! text-center">
+    <h2 class="text-5xl font-bold text-white mb-8! text-center mb-16! animate-fade-in">Key Benefits</h2>
+    <div class="mx-auto flex justify-center px-4! items-center">
+      <div class="flex flex-wrap gap-8 items-center justify-center w-full">
+        <div
+          class=" p-8! text-white hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-left">
+          <div class="flex flex-col w-130 items-center text-center">
+            <div class="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center mb-6!">
+              <i class="fas fa-robot text-4xl text-blue-500"></i>
+            </div>
+            <h3 class="text-4xl font-semibold mb-4! text-[#1594fd]">One-stop Solution</h3>
+            <p class="text-gray-300">Comprehensive AI-powered analysis with automated checklist verification</p>
+          </div>
+        </div>
+        <div
+          class=" p-8! text-white hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex flex-col w-130 items-center text-center">
+            <div class="w-20 h-20 bg-purple-500/20 rounded-full flex items-center justify-center mb-6!">
+              <i class="fas fa-sliders-h text-4xl text-purple-500"></i>
+            </div>
+            <h3 class="text-4xl font-semibold mb-4! text-[#1594fd]">No-code Platform</h3>
+            <p class="text-gray-300">Intuitive interface with easy-to-use toggle controls for seamless operation</p>
+          </div>
+        </div>
+        <div
+          class="p-8! text-white hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-right">
+          <div class="flex flex-col w-130 items-center text-center">
+            <div class="w-20 h-20 bg-green-500/20 rounded-full flex items-center justify-center mb-6!">
+              <i class="fas fa-chart-line text-4xl text-green-500"></i>
+            </div>
+            <h3 class="text-4xl font-semibold mb-4! text-[#1594fd]">Statistical Confidence</h3>
+            <p class="text-gray-300">Data-driven insights with clear confidence intervals and statistical validation</p>
+          </div>
+        </div>
+        <div
+          class=" p-8! text-white hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-left">
+          <div class="flex flex-col w-130 items-center text-center">
+            <div class="w-20 h-20 bg-yellow-500/20 rounded-full flex items-center justify-center mb-6!">
+              <i class="fas fa-clock text-4xl text-yellow-500"></i>
+            </div>
+            <h3 class="text-4xl font-semibold mb-4! text-[#1594fd]">Save Time</h3>
+            <p class="text-gray-300">Automated processes and streamlined workflows for maximum efficiency</p>
+          </div>
+        </div>
+        <div
+          class=" p-8! text-white hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-right">
+          <div class="flex flex-col w-130 items-center text-center">
+            <div class="w-20 h-20 bg-red-500/20 rounded-full flex items-center justify-center mb-6!">
+              <i class="fas fa-bullseye text-4xl text-red-500"></i>
+            </div>
+            <h3 class="text-4xl font-semibold mb-4! text-[#1594fd]">Faster Decisions</h3>
+            <p class="text-gray-300">Precise insights that help you hit your business targets with confidence</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="my-0! py-8! text-center flex flex-col items-center animate-fade-in">
+    <h2 class="text-5xl font-bold text-white mb-8!">Get Started Today</h2>
+    <div class="max-w-[1000px] mx-auto mb-12! px-4!">
+      <video src="assets/videos/trialai-agent-demo.mp4" controls class="h-[500px] w-full rounded-xl shadow-md mb-4!"></video>
+    </div>
+    <h1 class="text-4xl font-bold text-white max-w-[1500px] mx-auto mb-4! italic leading-relaxed px-4!">Happy business user with dashboards, graphs floating around</h1>
+    <button class="bg-white text-[#1594fd] px-8! py-3! rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">Book a Demo</button>
+  </section>
+  <p class="text-white text-center">If you'd like, I can also generate sample banner visuals and dashboard mockups for some of these using AI. Want me to do that?</p>
+
+</div>

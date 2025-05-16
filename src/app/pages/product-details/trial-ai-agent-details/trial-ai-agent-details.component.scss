@@ -1,0 +1,163 @@
+.how-it-works {
+  background: linear-gradient(to bottom right, #063b5a, #258cc7, #703c80);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.business-impact {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: #e6eff3;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+    filter: blur(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.animate-immediate {
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+}
+
+.animate-fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
+              transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
+              transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
+              transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1, h2 {
+  text-shadow: 0 0 15px rgba(47, 66, 172, 0.3);
+}
+
+.timeline-middle svg {
+  filter: drop-shadow(0 0 10px rgba(11, 183, 204, 0.6));
+}
+
+.how-it-works, .business-impact {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  }
+}
+
+body {
+  background-image: radial-gradient(rgba(47, 66, 172, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.timeline {
+  &::before {
+    background: linear-gradient(to bottom, #0BB7CC, #E29019);
+    box-shadow: 0 0 10px rgba(11, 183, 204, 0.3);
+  }
+  
+  .timeline-box {
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px) scale(1.03);
+    }
+  }
+}
+
+video {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  }
+}
+
+h1.italic {
+  position: relative;
+  
+  &::before, &::after {
+    content: '"';
+    font-size: 4rem;
+    color: rgba(47, 66, 172, 0.2);
+    position: absolute;
+  }
+  
+  &::before {
+    top: -20px;
+    left: -20px;
+  }
+  
+  &::after {
+    bottom: -40px;
+    right: -20px;
+  }
+}
+

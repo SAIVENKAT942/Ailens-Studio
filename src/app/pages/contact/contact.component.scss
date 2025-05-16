@@ -1,0 +1,25 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.para {
+    background: linear-gradient(to bottom, #ffffff, #ec4899) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    // animation: gradient 8s ease infinite;
+    background-size: 200% 200%;
+
+}

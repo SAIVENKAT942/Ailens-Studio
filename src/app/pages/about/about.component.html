@@ -1,0 +1,575 @@
+<div class="relative bg-gradient-to-b from-[#000000] via-[#0c0a27] to-[#000000] overflow-hidden min-h-screen">
+  <!-- Star background layers with improved opacity and animation -->
+  <div class="fixed inset-0 w-[200%] h-full pointer-events-none opacity-40 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%202000%201500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20fill%3D%22white%22%20r%3D%221%22%20cx%3D%2210%22%20cy%3D%2210%22%2F%3E%3C%2Fsvg%3E')] animate-[slide_60s_linear_infinite]"></div>
+  <div class="fixed inset-0 w-[200%] h-full pointer-events-none opacity-25 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%202000%201500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20fill%3D%22white%22%20r%3D%222%22%20cx%3D%2220%22%20cy%3D%2220%22%2F%3E%3C%2Fsvg%3E')] animate-[slide_40s_linear_infinite]"></div>
+  <div class="fixed inset-0 w-[200%] h-full pointer-events-none opacity-20 bg-[radial-gradient(white,rgba(255,255,255,.2)_2px,transparent_3px)] bg-[length:250px_250px] animate-[slide_50s_linear_infinite]"></div>
+
+  <!-- Decorative gradient orbs -->
+  <div class="fixed top-20 left-20 w-[300px] h-[300px] rounded-full bg-gradient-to-r from-[#4d57e4]/10 to-[#8958FE]/10 blur-[120px] pointer-events-none"></div>
+  <div class="fixed bottom-20 right-20 w-[400px] h-[400px] rounded-full bg-gradient-to-r from-[#1594FD]/10 to-[#4d57e4]/10 blur-[150px] pointer-events-none"></div>
+
+  <div class="container mx-auto px-4! sm:px-6! lg:px-8! py-12! max-w-[1800px]! relative z-10!">
+    <!-- Hero Section with improved spacing and animations -->
+    <div class="text-center mb-28! flex flex-col justify-center items-center gap-6! animate-fade-in!">
+      <img [src]="emblem1" alt="Logo" class="w-[400px] h-[400px] object-fill ml-[100px]! mb-6!">
+      <h1 class="text-4xl! md:text-6xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] mb-16! relative">
+        About Us
+        <div class="absolute bottom-[-15px] left-1/2 transform -translate-x-1/2 w-24! h-1! bg-gradient-to-r from-[#1594FD] to-[#8958FE] rounded-full"></div>
+      </h1>
+      <p class="text-white text-xl! md:text-2xl! max-w-7xl! mx-auto! leading-relaxed! px-4! backdrop-blur-sm! bg-black/10! p-6! rounded-xl! border! border-white/5!">
+        AI Lens Pvt. Ltd. is a pioneering force in the realm of Generative AI and business analytics,
+        dedicated to solving complex business challenges across diverse industries. Founded with a mission
+        to empower organizations through advanced AI technologies, we specialize in leveraging Large
+        Language Models (LLMs) to drive innovation and deliver transformative results in multiple sectors.
+      </p>
+    </div>
+
+    <!-- Expertise Section with enhanced visual design -->
+    <section class="mx-auto! mb-24!">
+      <h2 class="text-3xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] mb-12! text-center! animate-fade-in!">Our Expertise</h2>
+      
+      <div class="grid grid-cols-1! md:grid-cols-2! gap-10!">
+        <!-- Generative AI Expertise Card -->
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-md rounded-2xl border border-white/10 shadow-lg hover:shadow-[0_0_30px_rgba(77,87,228,0.2)] transition-all duration-500 animate-fade-in-left overflow-hidden group">
+          <div class="h-[180px] overflow-hidden relative bg-gradient-to-br from-[#1a1a2e] to-[#16213e]">
+            <!-- Animated AI nodes visualization -->
+            <div class="absolute inset-0 opacity-40">
+              <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-full">
+                <!-- Animated connecting lines -->
+                <line x1="20" y1="30" x2="40" y2="50" stroke="#4d57e4" stroke-width="0.5" class="animate-pulse">
+                  <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite" />
+                </line>
+                <line x1="40" y1="50" x2="60" y2="40" stroke="#8958FE" stroke-width="0.5" class="animate-pulse">
+                  <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite" />
+                </line>
+                <line x1="60" y1="40" x2="80" y2="60" stroke="#1594FD" stroke-width="0.5" class="animate-pulse">
+                  <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.5s" repeatCount="indefinite" />
+                </line>
+                
+                <!-- Animated nodes -->
+                <circle cx="20" cy="30" r="3" fill="#4d57e4">
+                  <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="40" cy="50" r="4" fill="#8958FE">
+                  <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="60" cy="40" r="3" fill="#1594FD">
+                  <animate attributeName="r" values="2;3;2" dur="2.5s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="80" cy="60" r="4" fill="#4d57e4">
+                  <animate attributeName="r" values="3;4;3" dur="2.8s" repeatCount="indefinite" />
+                </circle>
+                
+                <!-- Additional nodes and connections -->
+                <circle cx="30" cy="70" r="2" fill="#8958FE">
+                  <animate attributeName="r" values="1;2;1" dur="2.2s" repeatCount="indefinite" />
+                </circle>
+                <line x1="30" y1="70" x2="40" y2="50" stroke="#8958FE" stroke-width="0.5">
+                  <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.2s" repeatCount="indefinite" />
+                </line>
+                
+                <circle cx="70" cy="30" r="2" fill="#1594FD">
+                  <animate attributeName="r" values="1;2;1" dur="2.4s" repeatCount="indefinite" />
+                </circle>
+                <line x1="70" y1="30" x2="60" y2="40" stroke="#1594FD" stroke-width="0.5">
+                  <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.3s" repeatCount="indefinite" />
+                </line>
+              </svg>
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-[rgba(9,9,11,0.9)] to-transparent"></div>
+            <div class="absolute bottom-4 left-8">
+              <h3 class="text-2xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE]">Generative AI Solutions</h3>
+            </div>
+          </div>
+          <div class="p-8!">
+            <div class="flex items-center mb-6!">
+              <div class="w-12! h-12! rounded-full bg-gradient-to-r from-[#1594FD]/20 to-[#8958FE]/20 flex items-center justify-center mr-4!">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6! w-6! text-[#8958FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div class="h-[1px]! flex-grow! bg-gradient-to-r! from-[#1594FD]/30! to-[#8958FE]/30!"></div>
+            </div>
+            <p class="text-white text-lg! leading-relaxed!">
+              At AI Lens, we harness the power of Generative AI, specifically utilizing Large Language Models,
+              to address a wide array of business problems. Our AI solutions are designed to simulate human-like
+              reasoning and creativity, enabling businesses to innovate and optimize operations across multiple domains.
+            </p>
+            <div class="mt-6! grid grid-cols-2! gap-2!">
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#8958FE]!">LLM Development</span>
+              </div>
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#8958FE]!">AI Integration</span>
+              </div>
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#8958FE]!">Custom AI Models</span>
+              </div>
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#8958FE]!">Prompt Engineering</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Business Analytics Expertise Card -->
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-md rounded-2xl border border-white/10 shadow-lg hover:shadow-[0_0_30px_rgba(77,87,228,0.2)] transition-all duration-500 animate-fade-in-right overflow-hidden group">
+          <div class="h-[180px] overflow-hidden relative bg-gradient-to-br from-[#1a1a2e] to-[#16213e]">
+            <!-- Animated analytics graph visualization -->
+            <div class="absolute inset-0 opacity-40">
+              <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-full">
+                <!-- Bar chart animation -->
+                <rect x="10" y="70" width="10" height="10" fill="#1594FD" opacity="0.7">
+                  <animate attributeName="height" values="10;30;10" dur="3s" repeatCount="indefinite" />
+                  <animate attributeName="y" values="70;50;70" dur="3s" repeatCount="indefinite" />
+                </rect>
+                <rect x="30" y="60" width="10" height="20" fill="#4d57e4" opacity="0.7">
+                  <animate attributeName="height" values="20;40;20" dur="3.5s" repeatCount="indefinite" />
+                  <animate attributeName="y" values="60;40;60" dur="3.5s" repeatCount="indefinite" />
+                </rect>
+                <rect x="50" y="50" width="10" height="30" fill="#8958FE" opacity="0.7">
+                  <animate attributeName="height" values="30;50;30" dur="4s" repeatCount="indefinite" />
+                  <animate attributeName="y" values="50;30;50" dur="4s" repeatCount="indefinite" />
+                </rect>
+                <rect x="70" y="40" width="10" height="40" fill="#1594FD" opacity="0.7">
+                  <animate attributeName="height" values="40;60;40" dur="3.2s" repeatCount="indefinite" />
+                  <animate attributeName="y" values="40;20;40" dur="3.2s" repeatCount="indefinite" />
+                </rect>
+                
+                <!-- Line graph -->
+                <polyline points="15,60 35,50 55,35 75,25" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.8">
+                  <animate attributeName="points" values="15,60 35,50 55,35 75,25; 15,55 35,45 55,30 75,20; 15,60 35,50 55,35 75,25" dur="4s" repeatCount="indefinite" />
+                </polyline>
+                
+                <!-- Data points -->
+                <circle cx="15" cy="60" r="1.5" fill="#ffffff">
+                  <animate attributeName="cy" values="60;55;60" dur="4s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="35" cy="50" r="1.5" fill="#ffffff">
+                  <animate attributeName="cy" values="50;45;50" dur="4s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="55" cy="35" r="1.5" fill="#ffffff">
+                  <animate attributeName="cy" values="35;30;35" dur="4s" repeatCount="indefinite" />
+                </circle>
+                <circle cx="75" cy="25" r="1.5" fill="#ffffff">
+                  <animate attributeName="cy" values="25;20;25" dur="4s" repeatCount="indefinite" />
+                </circle>
+              </svg>
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-[rgba(9,9,11,0.9)] to-transparent"></div>
+            <div class="absolute bottom-4 left-8">
+              <h3 class="text-2xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE]">Business Analytics</h3>
+            </div>
+          </div>
+          <div class="p-8!">
+            <div class="flex items-center mb-6!">
+              <div class="w-12! h-12! rounded-full! bg-gradient-to-r! from-[#1594FD]/20! to-[#8958FE]/20! flex! items-center! justify-center! mr-4!">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6! w-6! text-[#1594FD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <div class="h-[1px]! flex-grow! bg-gradient-to-r! from-[#1594FD]/30! to-[#8958FE]/30!"></div>
+            </div>
+            <p class="text-white text-lg! leading-relaxed!">
+              We offer comprehensive end-to-end business analytics services that encompass
+              data collection, integration, advanced analysis, and insightful visualizations. Our goal is to equip
+              businesses with the insights they need to make data-driven decisions that enhance efficiency, reduce
+              costs, and improve overall performance.
+            </p>
+            <div class="mt-6! grid grid-cols-2! gap-2!">
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#1594FD]!">Data Integration</span>
+              </div>
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#1594FD]!">Predictive Analytics</span>
+              </div>
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#1594FD]!">Data Visualization</span>
+              </div>
+              <div class="bg-white/5! rounded-lg! p-3! border! border-white/10!">
+                <span class="text-sm! text-[#1594FD]!">Business Intelligence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Additional Expertise Highlights -->
+      <div class="mt-12! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6! animate-fade-in">
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.5)] to-[rgba(9,9,11,0.5)] backdrop-blur-sm p-6! rounded-xl border border-white/10 hover:border-[#1594FD]/30 transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-full bg-gradient-to-r from-[#1594FD]/10 to-[#8958FE]/10 flex items-center justify-center mb-4! group-hover:from-[#1594FD]/20 group-hover:to-[#8958FE]/20 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#1594FD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h4 class="text-lg! font-semibold text-white mb-2!">AI Implementation</h4>
+          <p class="text-[#b4b4b4] text-sm">Seamless integration of AI solutions into existing business workflows and systems</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.5)] to-[rgba(9,9,11,0.5)] backdrop-blur-sm p-6! rounded-xl border border-white/10 hover:border-[#1594FD]/30 transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-full bg-gradient-to-r from-[#1594FD]/10 to-[#8958FE]/10 flex items-center justify-center mb-4! group-hover:from-[#1594FD]/20 group-hover:to-[#8958FE]/20 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#4d57e4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+            </svg>
+          </div>
+          <h4 class="text-lg! font-semibold text-white mb-2!">Custom Solutions</h4>
+          <p class="text-[#b4b4b4] text-sm">Tailored AI and analytics solutions designed for your specific business needs</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.5)] to-[rgba(9,9,11,0.5)] backdrop-blur-sm p-6! rounded-xl border border-white/10 hover:border-[#1594FD]/30 transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-full bg-gradient-to-r from-[#1594FD]/10 to-[#8958FE]/10 flex items-center justify-center mb-4! group-hover:from-[#1594FD]/20 group-hover:to-[#8958FE]/20 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#8958FE]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+          </div>
+          <h4 class="text-lg! font-semibold text-white mb-2!">Industry Expertise</h4>
+          <p class="text-[#b4b4b4] text-sm">Specialized knowledge across healthcare, finance, retail, and manufacturing sectors</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.5)] to-[rgba(9,9,11,0.5)] backdrop-blur-sm p-6! rounded-xl border border-white/10 hover:border-[#1594FD]/30 transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-full bg-gradient-to-r from-[#1594FD]/10 to-[#8958FE]/10 flex items-center justify-center mb-4! group-hover:from-[#1594FD]/20 group-hover:to-[#8958FE]/20 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#1594FD]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+            </svg>
+          </div>
+          <h4 class="text-lg! font-semibold text-white mb-2!">Continuous Support</h4>
+          <p class="text-[#b4b4b4] text-sm">Ongoing maintenance, updates, and optimization of your AI and analytics solutions</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision Section with improved hover effects -->
+    <section class="mb-24!">
+      <div class="grid grid-cols-1! md:grid-cols-2! gap-10!">
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.8)] to-[rgba(9,9,11,0.8)] border border-[rgba(59,130,246,0.2)] rounded-2xl transition-all duration-500 relative overflow-hidden group animate-fade-in-left">
+          <div class="absolute inset-0 bg-gradient-to-r from-[#4d57e4]/0 to-[#8958FE]/0 group-hover:from-[#4d57e4]/10 group-hover:to-[#8958FE]/10 transition-all duration-500"></div>
+          <div class="p-8! relative z-10!">
+            <h3 class="text-2xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] mb-6!">Our Mission</h3>
+            <p class="text-[#e2e8f0] text-lg! leading-relaxed!">
+              Our mission is to harness the power of AI and data to create substantial value for our clients.
+              We believe in the transformative potential of AI across all industries and are committed to
+              delivering solutions that drive success and sustainability.
+            </p>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full! h-1! bg-gradient-to-r from-[#1594FD]/50 to-[#8958FE]/50 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-right"></div>
+        </div>
+
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.8)] to-[rgba(9,9,11,0.8)] border border-[rgba(59,130,246,0.2)] rounded-2xl transition-all duration-500 relative overflow-hidden group animate-fade-in-right">
+          <div class="absolute inset-0 bg-gradient-to-r from-[#4d57e4]/0 to-[#8958FE]/0 group-hover:from-[#4d57e4]/10 group-hover:to-[#8958FE]/10 transition-all duration-500"></div>
+          <div class="p-8! relative z-10!">
+            <h3 class="text-2xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] mb-6!">Our Vision</h3>
+            <p class="text-[#e2e8f0] text-lg! leading-relaxed!">
+              To be recognized as a global leader in AI and analytics, driving innovation and excellence
+              across industries. We aim to enable businesses of all sizes to harness the power of AI,
+              ensuring they achieve new heights of success and sustainability.
+            </p>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full! h-1! bg-gradient-to-r from-[#1594FD]/50 to-[#8958FE]/50 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section with improved card design -->
+    <section class="mb-24!">
+      <h2 class="text-4xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] text-center! mb-16! animate-fade-in!">Our Team</h2>
+      <div class="grid grid-cols-1! gap-12! w-full!">
+        <!-- Team Member 1 -->
+        <div class="w-full! flex! flex-col! md:flex-row! gap-8! p-8! bg-gradient-to-br! from-[rgba(15,15,20,0.9)]! to-[rgba(9,9,11,0.9)]! border! border-[rgba(59,130,246,0.2)]! rounded-2xl! hover:border-[rgb(0,98,255)]! hover:shadow-[0_0_40px_rgba(59,130,246,0.2)]! transition-all! duration-500! animate-fade-in-left!">
+          <div class="flex-none! w-full! md:w-[300px]!">
+            <div class="relative group overflow-hidden rounded-xl mb-6!">
+              <img src="assets/team/chaitanya.png" alt="Team Member 1" class="w-full! h-[300px]! object-cover rounded-xl transition-transform duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+            <h2 class="text-2xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE]">Chaitanya Repaka</h2>
+            <p class="text-[#a0a0a0] text-lg! mb-4!">Visionary Founder & CEO</p>
+          </div>
+          <div class="flex-1! py-4!">
+            <div class="mb-6!">
+              <h3 class="text-xl! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Unique Value Proposition</h3>
+              <p class="text-[#b4b4b4] text-base! leading-relaxed!">A distinguished innovator who uniquely combines hands-on AI development with deep pharmaceutical
+                expertise. From developing FDA-approved statistical models to architecting advanced analytics platforms
+                recognized by global institutions, his work bridges the gap between healthcare and cutting-edge
+                artificial intelligence through direct development of sophisticated AI solutions.</p>
+            </div>
+            <div class="grid grid-cols-1! sm:grid-cols-2! gap-4!">
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Technical Expertise</h3>
+                <ul class="text-[#b4b4b4] text-base! space-y-1!">
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Large Language Models</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>ML Architecture Design</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Statistical Analysis</li>
+                </ul>
+              </div>
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Domain Knowledge</h3>
+                <ul class="text-[#b4b4b4] text-base space-y-1">
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Pharmaceutical Expertise</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Healthcare Innovation</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Regulatory Knowledge</li>
+                </ul>
+              </div>
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">M.Pharmacy - Pharmacology</h3>
+                <p class="text-[#b4b4b4] text-base">JNTUH University</p>
+              </div>
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Advanced Management Programme in AI</h3>
+                <p class="text-[#b4b4b4] text-base">Indian School of Business (ISB)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="w-full! flex flex-col md:flex-row gap-8! p-8! bg-gradient-to-br from-[rgba(15,15,20,0.9)] to-[rgba(9,9,11,0.9)] border border-[rgba(59,130,246,0.2)] rounded-2xl hover:border-[rgb(0,98,255)] hover:shadow-[0_0_40px_rgba(59,130,246,0.2)] transition-all duration-500 animate-fade-in-right">
+          <div class="flex-none w-full! md:w-[300px]!">
+            <div class="relative group overflow-hidden rounded-xl mb-6!">
+              <img src="assets/team/pritam.png" alt="Team Member 2" class="w-full! h-[300px]! object-cover rounded-xl transition-transform duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+            <h2 class="text-2xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE]">Pritam Dey</h2>
+            <p class="text-[#a0a0a0] text-lg! mb-4!">Principal AI Architect</p>
+          </div>
+          <div class="flex-1! py-4!">
+            <div class="mb-6!">
+              <h3 class="text-xl! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Technical Excellence</h3>
+              <p class="text-[#b4b4b4] text-base! leading-relaxed!">A masterful AI architect who transforms complex algorithms into practical healthcare solutions. His
+                groundbreaking work in natural language processing and computer vision has revolutionized how we
+                interpret and process patient rehabilitation data, setting new standards in medical AI applications.</p>
+            </div>
+            <div class="grid grid-cols-1! sm:grid-cols-2! gap-4!">
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">AI Specializations</h3>
+                <ul class="text-[#b4b4b4] text-base! space-y-1!">
+                  <li class="flex items-center"><span class="w-1.5!  h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Large Language Models</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Computer Vision</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Statistical Analysis</li>
+                </ul>
+              </div>
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Core Strengths</h3>
+                <ul class="text-[#b4b4b4] text-base space-y-1">
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>System Architecture</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-2!"></span>Algorithm Design</li>
+                  <li class="flex items-center"><span class="w-1.5! h-1.5! bg-[#618dec] rounded-full mr-21"></span>Research Innovation</li>
+                </ul>
+              </div>
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Advanced Computing</h3>
+                <p class="text-[#b4b4b4] text-base">JNTUH University</p>
+              </div>
+              <div class="bg-gradient-to-br from-[#253a47] to-[#1a2a33] p-5! rounded-xl border border-[#618dec]/20 hover:border-[#618dec]/40 transition-all duration-300">
+                <h3 class="text-lg! text-transparent bg-clip-text bg-gradient-to-r from-[#1594FD] to-[#8958FE] mb-3!">Research Excellence</h3>
+                <p class="text-[#b4b4b4] text-base">AI Publications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section with improved card design -->
+    <section class="mb-24!">
+      <h2 class="text-3xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] mb-16! text-center! animate-fade-in!">Why Choose Us?</h2>
+      <div class="max-w-[2000px] mx-auto">
+        <div class="grid grid-cols-1! md:grid-cols-2! gap-10! mb-10!">
+          <!-- Card 1 -->
+          <div class="group bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-sm border border-[rgba(59,130,246,0.2)] rounded-2xl p-6 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(59,130,246,0.2)] hover:border-[rgba(59,130,246,0.4)] animate-fade-in-left">
+            <div class="overflow-hidden rounded-xl mb-6! group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]! transition-all! duration-500!">
+              <img src="assets/about/machinelearning.jpeg" alt="Advanced AI Solutions" class="w-full! h-[250px]! object-cover rounded-xl transition-transform duration-700 group-hover:scale-105">
+            </div>
+            <div class="text-center">
+              <h4 class="text-2xl! font-bold! mb-4! bg-gradient-to-r! from-[#1594FD]! to-[#8958FE]! bg-clip-text! text-transparent!">Advanced AI Solutions</h4>
+              <p class="text-[#b4b4b4] leading-relaxed text-lg">
+                We leverage state-of-the-art Large Language Models to deliver AI solutions that address
+                complex business challenges across multiple sectors.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="group bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-sm border border-[rgba(59,130,246,0.2)] rounded-2xl p-6 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(59,130,246,0.2)] hover:border-[rgba(59,130,246,0.4)] animate-fade-in-right">
+            <div class="overflow-hidden rounded-xl mb-6! group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]! transition-all! duration-500!">
+              <img src="assets/about/Comprehensive-Analytics.png" alt="Comprehensive Analytics" class="w-full h-[250px] object-cover rounded-xl transition-transform duration-700 group-hover:scale-105">
+            </div>
+            <div class="text-center">
+              <h4 class="text-2xl! font-bold! mb-4! bg-gradient-to-r! from-[#1594FD]! to-[#8958FE]! bg-clip-text! text-transparent!">Comprehensive Analytics</h4>
+              <p class="text-[#b4b4b4] leading-relaxed text-lg">
+                Our end-to-end business analytics services ensure you have the critical insights needed
+                to make informed decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <!-- Card 3 -->
+          <div class="group bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-sm border border-[rgba(59,130,246,0.2)] rounded-2xl p-6 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(59,130,246,0.2)] hover:border-[rgba(59,130,246,0.4)] animate-fade-in-left">
+            <div class="overflow-hidden rounded-xl mb-6! group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]! transition-all! duration-500!">
+              <img src="assets/about/Customized-Approach.png" alt="Customized Approach" class="w-full h-[250px] object-cover rounded-xl transition-transform duration-700 group-hover:scale-105">
+            </div>
+            <div class="text-center">
+              <h4 class="text-2xl! font-bold! mb-4! bg-gradient-to-r! from-[#1594FD]! to-[#8958FE]! bg-clip-text! text-transparent!">Customized Approach</h4>
+              <p class="text-[#b4b4b4] leading-relaxed text-lg">
+                We tailor our services to the specific needs of each client, ensuring alignment with
+                your business objectives and goals.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="group bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-sm border border-[rgba(59,130,246,0.2)] rounded-2xl p-6 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(59,130,246,0.2)] hover:border-[rgba(59,130,246,0.4)] animate-fade-in-right">
+            <div class="overflow-hidden rounded-xl mb-6! group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]! transition-all! duration-500!">
+              <img src="assets/about/Proven-Expertise.png" alt="Proven Expertise" class="w-full h-[250px] object-cover rounded-xl transition-transform duration-700 group-hover:scale-105">
+            </div>
+            <div class="text-center">
+              <h4 class="text-2xl! font-bold! mb-4! bg-gradient-to-r! from-[#1594FD]! to-[#8958FE]! bg-clip-text! text-transparent!">Proven Expertise</h4>
+              <p class="text-[#b4b4b4] leading-relaxed text-lg">
+                With a team of seasoned professionals in AI, data science, and business analytics,
+                we bring unparalleled expertise to every project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section with improved card design -->
+    <section class="py-8! mb-20!">
+      <h2 class="text-3xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] text-center! mb-12! animate-fade-in!">Our Values</h2>
+      <div class="grid grid-cols-1! sm:grid-cols-2! lg:grid-cols-4! gap-6! max-w-[90rem]! mx-auto!">
+        <div class="bg-gradient-to-br from-[rgba(39,39,116,0.7)] via-[rgba(9,9,11,0.7)] to-[rgba(39,39,116,0.7)] rounded-xl p-6! transition-all! duration-500! hover:scale-105! hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]! group! animate-fade-in-left!">
+          <div class="relative">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mb-6 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h4 class="text-white! text-xl! font-bold! mb-3!">Innovation</h4>
+            <p class="text-[#b4b4b4] text-base leading-relaxed">
+              We constantly push the boundaries of what's possible with AI, exploring new approaches and technologies to deliver innovative solutions.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-[rgba(39,39,116,0.7)] via-[rgba(9,9,11,0.7)] to-[rgba(39,39,116,0.7)] rounded-xl p-6! transition-all! duration-500! hover:scale-105! hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]! group! animate-fade-in-left! delay-100!">
+          <div class="relative">
+            <div class="w-16! h-16! rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mb-6! group-hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8! w-8! text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <h4 class="text-white! text-xl! font-bold! mb-3!">Collaboration</h4>
+            <p class="text-[#b4b4b4] text-base! leading-relaxed!">
+              We work closely with our clients, fostering partnerships that enable us to understand their unique challenges and deliver tailored solutions.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-[rgba(39,39,116,0.7)] via-[rgba(9,9,11,0.7)] to-[rgba(39,39,116,0.7)] rounded-xl p-6! transition-all! duration-500! hover:scale-105! hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]! group! animate-fade-in-right! delay-100!">
+          <div class="relative">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mb-6 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <h4 class="text-white! text-xl! font-bold! mb-3!">Integrity</h4>
+            <p class="text-[#b4b4b4] text-base! leading-relaxed!">
+              We uphold the highest ethical standards in all our operations, ensuring transparency, data security, and responsible AI development.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-[rgba(39,39,116,0.7)] via-[rgba(9,9,11,0.7)] to-[rgba(39,39,116,0.7)] rounded-xl p-6! transition-all! duration-500! hover:scale-105! hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]! group! animate-fade-in-right! delay-100!">
+          <div class="relative">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mb-6 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+              </svg>
+            </div>
+            <h4 class="text-white! text-xl! font-bold! mb-3!">Excellence</h4>
+            <p class="text-[#b4b4b4] text-base! leading-relaxed!">
+              We strive for excellence in everything we do, from the quality of our AI models to the impact of our business analytics solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section - New Addition -->
+    <section class="mb-24!">
+      <h2 class="text-3xl! font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] text-center! mb-16! animate-fade-in!">What Our Clients Say</h2>
+      
+      <div class="grid grid-cols-1! md:grid-cols-3! gap-8!">
+        <!-- Testimonial 1 -->
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-md p-8! rounded-2xl border border-white/10 shadow-lg hover:shadow-[0_0_30px_rgba(77,87,228,0.2)] transition-all duration-500 animate-fade-in-left relative">
+          <div class="absolute -top-5 left-8 text-6xl! text-[#4d57e4]/20">"</div>
+          <p class="text-white text-lg leading-relaxed mb-6! relative z-10!">
+            AI Lens transformed our approach to customer data analysis. Their custom LLM solution helped us uncover insights we never knew existed in our data.
+          </p>
+          <div class="flex items-center">
+            <div class="w-12! h-12! rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mr-4!">
+              <span class="text-white font-bold">JD</span>
+            </div>
+            <div>
+              <h4 class="text-white font-semibold">John Doe</h4>
+              <p class="text-[#a0a0a0] text-sm">CTO, TechCorp Inc.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-md p-8! rounded-2xl border border-white/10 shadow-lg hover:shadow-[0_0_30px_rgba(77,87,228,0.2)] transition-all duration-500 animate-fade-in relative">
+          <div class="absolute -top-5 left-8 text-6xl text-[#4d57e4]/20">"</div>
+          <p class="text-white text-lg leading-relaxed mb-6! relative z-10!">
+            The business analytics platform developed by AI Lens has become an essential tool for our decision-making process. The insights generated have directly contributed to our 30% growth.
+          </p>
+          <div class="flex items-center">
+            <div class="w-12! h-12! rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mr-4!">
+              <span class="text-white font-bold">JS</span>
+            </div>
+            <div>
+              <h4 class="text-white font-semibold">Jane Smith</h4>
+              <p class="text-[#a0a0a0] text-sm">CEO, Growth Ventures</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 3 -->
+        <div class="bg-gradient-to-br from-[rgba(24,24,27,0.7)] to-[rgba(9,9,11,0.7)] backdrop-blur-md p-8! rounded-2xl border border-white/10 shadow-lg hover:shadow-[0_0_30px_rgba(77,87,228,0.2)] transition-all duration-500 animate-fade-in-right relative">
+          <div class="absolute -top-5 left-8 text-6xl text-[#4d57e4]/20">"</div>
+          <p class="text-white text-lg leading-relaxed mb-6! relative z-10!">
+            Working with AI Lens has been a game-changer for our healthcare operations. Their AI solutions have improved our diagnostic accuracy while reducing operational costs.
+          </p>
+          <div class="flex items-center">
+            <div class="w-12! h-12! rounded-full bg-gradient-to-r from-[#1594FD] to-[#8958FE] flex items-center justify-center mr-4!">
+              <span class="text-white font-bold">RP</span>
+            </div>
+            <div>
+              <h4 class="text-white font-semibold">Dr. Robert Patel</h4>
+              <p class="text-[#a0a0a0] text-sm">Medical Director, HealthFirst</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA Section - New Addition -->
+    <section class="mb-20!">
+      <div class="bg-gradient-to-br from-[rgba(24,24,27,0.8)] to-[rgba(9,9,11,0.8)] backdrop-blur-md p-12! rounded-3xl! border border-[rgba(59,130,246,0.3)]! relative overflow-hidden! group! animate-fade-in!">
+        <div class="absolute top-0 left-0 w-full h-1! bg-gradient-to-r from-[#1594FD] to-[#8958FE]"></div>
+        <div class="absolute -top-20 -right-20 w-40! h-40! rounded-full bg-gradient-to-r from-[#4d57e4]/20 to-[#8958FE]/20 blur-[50px] group-hover:blur-[70px] transition-all duration-700"></div>
+        
+        <div class="text-center max-w-3xl! mx-auto! relative z-10!">
+          <h2 class="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4d57e4] to-[#8958FE] mb-6!">Ready to Transform Your Business with AI?</h2>
+          <p class="text-white text-xl mb-8!">
+            Let's discuss how our AI and analytics solutions can address your specific business challenges and drive growth.
+          </p>
+          <a href="/contact" class="inline-block px-8! py-4! bg-gradient-to-r from-[#1594FD] to-[#8958FE] text-white font-bold rounded-xl hover:shadow-[0_0_30px_rgba(77,87,228,0.5)] transition-all duration-300 transform hover:-translate-y-1">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,99 @@
+<div class="hero-section" [style.background-image]="'url(' + heroBackgroundImage + ')'">
+  <div class="hero-overlay" [style.background-color]="'rgba(0, 0, 0, ' + overlayOpacity + ')'"></div>
+  <div class="hero-content left-aligned">
+    <h1>{{ title }}</h1>
+  </div>
+  <div class="logo-container">
+    <img src="assets/emblem2.png" alt="Logo" class="animated-logo">
+  </div>
+</div>
+
+<div class="content-container">
+  <!-- Products Section -->
+  <div class="products-section">
+    <h2 class="products-title">Supercharge the efficiency of your business<br>with our AI products</h2>
+    <p class="products-subtitle">Cutting-edge AI solutions designed to help you build smarter, more responsive applications that transform your business operations.</p>
+    
+    <!-- Product Images Section with Overlap Effect -->
+    <div class="product-images-container" id="productImagesContainer">
+      <div class="product-image-card side-card left-card">
+        <img src="assets/products/Workspace.png" alt="Data Analytics Platform" class="product-image">
+        <!-- <h3>AI Chatbot</h3>
+        <p>Intelligent conversational agents that enhance customer experience</p> -->
+      </div>
+      <div class="product-image-card center-card">
+        <img src="assets/products/Clinical2.png" alt="AI Chatbot Solution" class="product-image">
+        <!-- <h3>Data Analytics</h3>
+        <p>Powerful insights from your business data with AI-driven analysis</p> -->
+      </div>
+      <div class="product-image-card side-card right-card">
+        <img src="assets/products/Clinical.png" alt="Process Automation" class="product-image">
+        <!-- <h3>Process Automation</h3>
+        <p>Streamline workflows with intelligent automation solutions</p> -->
+      </div>
+    </div>
+    
+    <!-- <div class="button-container">
+      <button class="product-cta">Products</button>
+    </div> -->
+  </div>
+  
+  <!-- Methodology Timeline Section -->
+  <div class="methodology-section">
+    <h2 class="methodology-title">Our Unique Methodology</h2>
+    <p class="methodology-subtitle">We believe in understanding the 'why' before implementing the 'how' and 'what'</p>
+    
+    <div class="my-timeline">
+      <div class="my-timeline-item left-item">
+        <div class="my-timeline-dot"></div>
+        <div class="my-timeline-content">
+          <h3>Understanding Why</h3>
+          <p>We start by deeply understanding the core problem and its significance. This ensures our solutions address real needs rather than superficial symptoms.</p>
+        </div>
+      </div>
+      
+      <div class="my-timeline-item right-item">
+        <div class="my-timeline-dot"></div>
+        <div class="my-timeline-content">
+          <h3>Empathy-Driven Approach</h3>
+          <p>Our solutions are built with deep empathy for end-users, ensuring that every feature serves a meaningful purpose in their journey.</p>
+        </div>
+      </div>
+      
+      <div class="my-timeline-item left-item">
+        <div class="my-timeline-dot"></div>
+        <div class="my-timeline-content">
+          <h3>Focused Implementation</h3>
+          <p>We implement solutions that are not just technologically advanced but are meaningful, accessible, and practical for our users.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Logo Scroll Section -->
+  <div class="trusted-by-section">
+    <h2>Trusted by Industry Leaders</h2>
+    <p>Join thousands of companies already using our platform</p>
+    
+    <div class="logo-scroll">
+      <div class="logo-scroll-content">
+        <!-- Dynamically generated logos from component -->
+        <ng-container *ngFor="let logo of partnerLogos">
+          <img [src]="logo.src" [alt]="logo.alt" class="partner-logo">
+        </ng-container>
+        <!-- Duplicate set for seamless looping -->
+        <ng-container *ngFor="let logo of partnerLogos">
+          <img [src]="logo.src" [alt]="logo.alt" class="partner-logo">
+        </ng-container>
+        <!-- Duplicate set for seamless looping -->
+        <ng-container *ngFor="let logo of partnerLogos">
+          <img [src]="logo.src" [alt]="logo.alt" class="partner-logo">
+        </ng-container>
+        <!-- Duplicate set for seamless looping -->
+        <ng-container *ngFor="let logo of partnerLogos">
+          <img [src]="logo.src" [alt]="logo.alt" class="partner-logo">
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<header>
+  <div class="container">
+    <div class="logo">
+      <a href="/">
+        <img [src]="logoPath" alt="AILENs Logo">
+      </a>
+    </div>
+    
+    <button class="mobile-menu-toggle" (click)="toggleMobileMenu()" [class.active]="mobileMenuOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav [class.mobile-open]="mobileMenuOpen">
+      <ul>
+        <li><a href="/" (click)="closeMobileMenu()">Home</a></li>
+        <li><a href="/product" (click)="closeMobileMenu()">Product</a></li>
+        <li><a href="/usecase" (click)="closeMobileMenu()">Use Case</a></li>
+        <li><a href="/about" (click)="closeMobileMenu()">About</a></li>
+        <li><a href="/contact" (click)="closeMobileMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
